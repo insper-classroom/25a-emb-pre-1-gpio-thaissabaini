@@ -7,7 +7,6 @@ const int LED_PIN_Y = 28;
 
 int main() {
   stdio_init_all();
-
   gpio_init(LED_PIN_R);
   gpio_set_dir(LED_PIN_R, GPIO_OUT);
   gpio_init(LED_PIN_Y);
